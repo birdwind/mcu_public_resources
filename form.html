@@ -1,0 +1,34 @@
+<div class="container">
+			<div class="row main">
+				<div class="main-login main-center">
+				<h5>銘傳大學MCR註冊系統</h5>
+					<!-- <form id="registData" name="registData" method="post" action="{address}Sign/signUP" onsubmit="return CheckRegist();"> -->
+						<form id="registData" name="registData" method="get" onsubmit="return CheckRegist();">
+						<div class="form-group">
+							<label for="name" class="cols-sm-2 control-label">學號 (Student ID)</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="id" id="id"  placeholder="Enter your studentID"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="email" class="cols-sm-2 control-label">姓名 (Name)</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="name" id="name"  placeholder="Enter your Name"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group ">
+							<input type="submit" id="button" class="btn btn-primary btn-lg btn-block login-button" value="註冊">
+						</div>
+						
+					</form>
+				</div>
+			</div>
+		</div>
